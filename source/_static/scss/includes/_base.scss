@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+
+html {
+    font-size: $root-font-size;
+}
+
+body {
+    all: unset;
+    font-family: $font-family-base;
+    font-size: 1rem;
+    line-height: $body-line-height;
+    color: $body-color;
+    background-color: $body-bg;
+    font-weight: $font-wight-normal;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+        text-decoration: none;
+    }
+}
