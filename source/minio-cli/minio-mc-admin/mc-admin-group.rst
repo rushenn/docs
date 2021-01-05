@@ -79,7 +79,11 @@ Use :mc-cmd:`mc admin group add` to create a new group to an S3-compatible host:
 
    mc admin group add ALIAS GROUPNAME MEMBER [MEMBER...]
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group add TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group add ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 - Replace :mc-cmd:`GROUPNAME <mc admin group add GROUPNAME>` with the name
@@ -100,7 +104,11 @@ host:
 
    mc admin group list ALIAS
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group list TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group info ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 
@@ -115,7 +123,11 @@ S3-compatible host:
 
    mc admin group info ALIAS GROUPNAME
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group info TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group info ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 - Replace :mc-cmd:`GROUPNAME <mc admin group info GROUPNAME>` with the name of
@@ -132,7 +144,11 @@ host:
 
    mc admin group remove ALIAS GROUPNAME
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group remove TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group remove ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 - Replace :mc-cmd:`GROUPNAME <mc admin group remove GROUPNAME>` with the
@@ -149,7 +165,11 @@ host:
 
    mc admin group disable ALIAS GROUPNAME
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group disable TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group disable ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 - Replace :mc-cmd:`GROUPNAME <mc admin group disable GROUPNAME>` with the name
@@ -166,7 +186,11 @@ host:
 
    mc admin group enable ALIAS GROUPNAME
 
+<<<<<<< HEAD:source/minio-cli/minio-mc-admin/mc-admin-group.rst
 - Replace :mc-cmd:`ALIAS <mc admin group enable TARGET>` with the 
+=======
+- Replace :mc-cmd:`ALIAS <mc admin group enable ALIAS>` with the 
+>>>>>>> b1a9ed3 (Resolve theme related conflicts):source/minio-cli/minio-mc-admin/mc-admin-groups.rst
   :mc-cmd:`alias <mc alias>` of the S3-compatible host.
 
 - Replace :mc-cmd:`GROUPNAME <mc admin group enable GROUPNAME>` with the name

@@ -39,6 +39,7 @@ ARN for use with :mc-cmd:`mc replicate`:
 .. code-block:: shell
    :class: copyable
 
+<<<<<<< HEAD
    mc admin bucket remote add SOURCE/BUCKET SOURCE/BUCKET
 
 - Replace :mc-cmd:`SOURCE <mc admin bucket remote add SOURCE>` with the
@@ -50,6 +51,19 @@ ARN for use with :mc-cmd:`mc replicate`:
   :mc-cmd:`alias <mc alias>` of the MinIO deployment to use as the
   replication source. Replace ``BUCKET`` with the full path of the bucket from
   which MinIO replicates objects into the ``SOURCE``.
+=======
+   mc admin bucket remote add TARGET/BUCKET SOURCE/BUCKET
+
+- Replace :mc-cmd:`TARGET <mc admin bucket remote add TARGET>` with the
+  :mc-cmd:`alias <mc alias>` of the MinIO deployment to use as the replication
+  target. Replace ``BUCKET`` with the full path of the bucket into which MinIO
+  replicates objects from the ``SOURCE``.
+
+- Replace :mc-cmd:`SOURCE <mc admin bucket remote add SOURCE>` with the
+  :mc-cmd:`alias <mc alias>` of the MinIO deployment to use as the
+  replication source. Replace ``BUCKET`` with the full path of the bucket from
+  which MinIO replicates objects into the ``TARGET``.
+>>>>>>> b1a9ed3 (Resolve theme related conflicts)
 
 Remove an Existing Replication Target
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -101,11 +115,17 @@ Syntax
    .. code-block:: shell
       :class: copyable
 
+<<<<<<< HEAD
       mc admin bucket add SOURCE DESTINATION --service "replication" [FLAGS]
+=======
+      mc admin bucket add TARGET DESTINATION --service "replication" [FLAGS]
+>>>>>>> b1a9ed3 (Resolve theme related conflicts)
 
    The command accepts the following arguments:
 
    .. mc-cmd:: SOURCE
+
+      *Required*
 
       *Required*
 
@@ -212,7 +232,11 @@ Syntax
    .. code-block:: shell
       :class: copyable
 
+<<<<<<< HEAD
       mc admin bucket rm SOURCE --arn ARN
+=======
+      mc admin bucket rm TARGET --arn ARN
+>>>>>>> b1a9ed3 (Resolve theme related conflicts)
 
    The command accepts the following arguments:
 
@@ -220,8 +244,14 @@ Syntax
 
       *Required*
 
+<<<<<<< HEAD
       The full path to the bucket from which the command removes the 
       remote target. Specify the
+=======
+      *Required*
+
+      The full path to the bucket for which the command <ACTION>. Specify the
+>>>>>>> b1a9ed3 (Resolve theme related conflicts)
       :mc-cmd:`alias <mc alias>` of a configured MinIO deployment as the
       prefix to the bucket path. For example:
 
